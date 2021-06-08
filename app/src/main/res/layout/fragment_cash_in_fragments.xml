@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    tools:context=".Fragments.CashInFragments">
+    <EditText
+        android:layout_centerInParent="true"
+        android:id="@+id/amountEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/input_bg_1"
+        android:padding="13dp"
+        android:hint="User Id Or Phone"
+        android:inputType="numberDecimal"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textAlignment="center"
+        />
+    <Button
+        android:layout_below="@+id/amountEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cashin_Button"
+        android:text="Cashin Request"
+        android:textAllCaps="false"
+        android:background="@drawable/button_bg_1"
+        android:layout_marginTop="10dp"
+        android:textColor="#fff"
+        />
+
+
+</RelativeLayout>

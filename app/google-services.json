@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "496991182570",
+    "project_id": "moneytransection-a8564",
+    "storage_bucket": "moneytransection-a8564.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:496991182570:android:2424ab60b512f3856fc193",
+        "android_client_info": {
+          "package_name": "com.sohel.moneytransection"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "496991182570-pagvr5h762832rnf6301hsuv54scvtuq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfqLQ8Nxgd3WP6spanLm1Y_ECp_niZqfw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "496991182570-pagvr5h762832rnf6301hsuv54scvtuq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

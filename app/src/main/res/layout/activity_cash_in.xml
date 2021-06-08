@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CashInActivity">
+    <include
+        layout="@layout/app_ber_layout"
+        android:id="@+id/appBarId"/>
+
+    <com.google.android.material.tabs.TabLayout
+        android:layout_below="@+id/appBarId"
+        android:layout_width="match_parent"
+        app:tabTextColor="#fff"
+        android:background="@color/purple_500"
+        android:layout_height="wrap_content"
+        android:id="@+id/admin_tabId"
+        app:tabTextAppearance="@style/MyCustomTabText"
+        />
+    <androidx.viewpager.widget.ViewPager
+        android:layout_below="@+id/admin_tabId"
+        android:id="@+id/adminTabpagerid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="4dp" />
+
+
+
+
+
+</RelativeLayout>

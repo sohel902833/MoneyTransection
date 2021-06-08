@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SendMoneyActivity">
+
+    <include
+        layout="@layout/app_ber_layout"
+        android:id="@+id/appBarId"/>
+
+    <LinearLayout
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_below="@+id/appBarId"
+        android:layout_height="match_parent">
+
+
+        <EditText
+            android:id="@+id/userIdEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/input_bg_1"
+            android:padding="13dp"
+            android:hint="User Id Or Phone"
+            android:inputType="numberDecimal"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:textAlignment="center"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/search_Bt"
+            android:text="Search"
+            android:textAllCaps="false"
+            android:background="@drawable/button_bg_1"
+            android:layout_marginTop="10dp"
+            android:textColor="#fff"
+            />
+        <TextView
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Name: Md Sohrab Hossain Sohel"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:background="@drawable/input_bg_1"
+            android:padding="15dp"
+            android:id="@+id/userNameTv"
+            />
+        <EditText
+            android:visibility="gone"
+            android:id="@+id/amountEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/input_bg_1"
+            android:padding="13dp"
+            android:hint="Amount"
+            android:inputType="number"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:textAlignment="center"
+            />
+        <Button
+            android:visibility="gone"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/send_Btn"
+            android:text="Send"
+            android:textAllCaps="false"
+            android:background="@drawable/button_bg_1"
+            android:layout_marginTop="10dp"
+            android:textColor="#fff"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</RelativeLayout>
